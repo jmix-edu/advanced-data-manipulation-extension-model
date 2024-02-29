@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<view xmlns="http://jmix.io/schema/flowui/view"
+      title="msg://com.company.inventorycontrolsystem.view.storage/storageListView.title"
+      messagesGroup="com.company.inventorycontrolsystem.view.storage"
+      extends="com/company/inventorycontrolsystem/view/storage/storage-list-view.xml">
+    <layout>
+        <dataGrid id="storagesDataGrid">
+            <columns>
+                <column property="active"/>
+                <column property="workFrom"/>
+                <column property="workTo"/>
+            </columns>
+        </dataGrid>
+    </layout>
+</view>

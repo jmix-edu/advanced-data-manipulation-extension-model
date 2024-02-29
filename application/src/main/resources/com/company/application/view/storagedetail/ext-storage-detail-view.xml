@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<view xmlns="http://jmix.io/schema/flowui/view"
+      title="msg://com.company.inventorycontrolsystem.view.storage/storageDetailView.title"
+      messagesGroup="com.company.inventorycontrolsystem.view.storage"
+      extends="com/company/inventorycontrolsystem/view/storage/storage-detail-view.xml">
+    <layout>
+        <formLayout id="form">
+            <checkbox id="activeField" property="active"/>
+            <timePicker id="workFrom" property="workFrom"/>
+            <timePicker id="workTo" property="workTo"/>
+        </formLayout>
+    </layout>
+</view>
